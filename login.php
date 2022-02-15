@@ -14,6 +14,7 @@
     
     <div class="inputBox1">
         <h1>Login</h1>
+        <form action="testLogin.php" method="POST">
         <input type="text" placeholder="Nome de usuário">
         <br><br>
         <input type="password" placeholder="Senha">

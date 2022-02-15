@@ -7,7 +7,6 @@
     <title>Tela de login</title>
     
     <link rel="stylesheet" type="text/css" href="css.css" media="screen" />
-
     
 </head>
 <body>
@@ -19,10 +18,9 @@
         <br><br>
         <input type="password" placeholder="Senha">
         <br><br>
-        <button>Login</button>
+        <a class= "btn" href="paginainicial.php">Login</a>
         <br><br>
-        <button>Cadastre-se aqui</button>
+        <a class= "btn" href="formulário.php">Cadastra-se aqui</a>
     </div>
-
 </body>
 </html>

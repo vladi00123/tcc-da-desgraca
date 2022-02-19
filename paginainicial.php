@@ -11,7 +11,7 @@
             background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
         }
        div{
-           background-color: rgb(0, 0, 0, 0,9);
+           background-color: rgb(0, 0, 0, 0,6);
            position: absolute;
            top: 50%;
            left: 50%;
@@ -27,7 +27,7 @@
            font-size: 15px;
 
        }
-       button{
+       .inputsubmit{
            background-color: dodgerblue;
            border: none;
            padding: 15%;
@@ -36,7 +36,7 @@
            color: white;
            font-size: 15px;
        }
-       button:hover{
+       .inputsubmit:hover{
            background-color: deepskyblue;
            cursor: pointer;
        }
@@ -51,7 +51,9 @@
         <br><br>
         <input type="password" placeholder=""senha"">
         <br><br>
-        <button>Enviar</button>
+        <input type="submit" name="submit" value="enviar">
+        <br><br>
+        <input class="inputsubmit" type="submit" name="submit" value="enviar">
      </div>
 </body>
 </html>
